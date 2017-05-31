@@ -3,11 +3,17 @@ body {
     color: white;
 }
 
+ul {
+    margin-top: 1.5vh;
+    padding-left: 3vh;
+}
+
 a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: 1.5vh;
+    letter-spacing: 0.5vh;
 }
 
 a:link {
@@ -19,11 +25,11 @@ a:visited {
 }
 
 a:hover {
-    color: lightpink;
+    color: #fcbcff;
 }
 
 a:active {
-    color: lightpink;
+    color: #fcbcff;
 }
 
 .name {
