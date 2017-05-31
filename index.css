@@ -3,19 +3,41 @@ body {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5vh;
+}
+
+a:hover {
+    color: lightpink;
+}
+
+a:active {
+    color: lightpink;
+}
+
 .name {
-    font-size: 3em;
+    font-size: 6vh;
     font-family: Raleway, sans-serif;
     font-weight: 600;
     letter-spacing: -3px;
 }
 
 .body {
-    font-size: 1em;
+    font-size: 1.75vh;
     font-family: Raleway, sans-serif;
     font-weight: 400;
 }
 
 .box {
-    padding: 4em;
+    padding: 7vh;
+}
+
+.links {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 3vh;
 }
