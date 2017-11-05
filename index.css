@@ -16,6 +16,10 @@ a {
 
 a:link {
     color: #1F1F1F;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition-duration: 0.2s;
 }
 
 a:visited {
@@ -24,10 +28,18 @@ a:visited {
 
 a:hover {
     color: #CB83C7;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition-duration: 0.1s;
 }
 
 a:active {
     color: #CB83C7;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition-duration: 0.1s;
 }
 
 .name {
