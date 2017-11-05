@@ -1,6 +1,6 @@
 body {
-    background-color: #111111;
-    color: white;
+    background-color: #FFFFFF;
+    color: #1F1F1F;
 }
 
 ul {
@@ -10,39 +10,37 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.5vh;
-    letter-spacing: 0.5vh;
+    font-size: 1.6vh;
+    letter-spacing: 0.25vh;
 }
 
 a:link {
-    color: white;
+    color: #1F1F1F;
 }
 
 a:visited {
-    color: white;
+    color: #1F1F1F;
 }
 
 a:hover {
-    color: #fcbcff;
+    color: #CB83C7;
 }
 
 a:active {
-    color: #fcbcff;
+    color: #CB83C7;
 }
 
 .name {
     font-size: 6vh;
     font-family: Raleway, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -3px;
 }
 
 .body {
     font-size: 1.75vh;
     font-family: Raleway, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .box {
@@ -51,7 +49,7 @@ a:active {
 
 .links {
     font-family: Raleway, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2vh;
-    line-height: 3vh;
+    line-height: 3.5vh;
 }
