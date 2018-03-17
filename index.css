@@ -25,18 +25,14 @@ a {
 
 a:link {
     color: #1F1F1F;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition-duration: 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition-duration: color 0.2s;
 }
 
 a:visited {
     color: #1F1F1F;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition-duration: 0.2s;
 }
 
 a:hover {
@@ -47,13 +43,6 @@ a:hover {
     transition-duration: 0.1s;
 }
 
-a:active {
-    color: #CB83C7;
-    -webkit-transition: 0.1s;
-    -moz-transition: 0.1s;
-    -o-transition: 0.1s;
-    transition-duration: 0.1s;
-}
 
 .name {
     font-size: 6vh;
