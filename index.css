@@ -13,14 +13,14 @@ body {
 }
 
 ul {
-    margin-top: 1.5vh;
-    padding-left: 3vh;
+    margin-top: 15px;
+    padding-left: 30px;
 }
 
 a {
     text-decoration: none;
-    font-size: 1.6vh;
-    letter-spacing: 0.25vh;
+    font-size: 15px;
+    letter-spacing: 2px;
 }
 
 a:link {
@@ -45,25 +45,24 @@ a:hover {
 
 
 .name {
-    font-size: 6vh;
+    font-size: 48px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     letter-spacing: -3px;
 }
 
 .body {
-    font-size: 1.75vh;
+    font-size: 15px;
     font-family: Raleway, sans-serif;
     font-weight: 600;
 }
 
 .box {
-    padding: 7vh;
+    padding: 70px;
 }
 
 .links {
     font-family: Raleway, sans-serif;
     font-weight: 600;
-    font-size: 2vh;
-    line-height: 3.5vh;
+    line-height: 42px;
 }
