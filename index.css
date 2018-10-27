@@ -10,12 +10,6 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    
-    /* mobile compatibility */
-    -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-overflow-scrolling: touch;
 }
 
 ul {
