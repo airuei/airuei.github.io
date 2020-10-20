@@ -32,6 +32,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .name {
@@ -43,9 +44,11 @@ body {
 
 .subtitle {
     margin-left: 10px;
+    flex-wrap: wrap;
     font-size: 20px;
     font-family: Raleway, sans-serif;
     font-weight: 600;
+    text-align: center;
 }
 
 .links {
@@ -53,6 +56,9 @@ body {
     margin: 30px 0px 0px 0px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
     list-style-type: none;
     font-size: 16px;
     font-family: Raleway, sans-serif;
@@ -60,8 +66,8 @@ body {
     letter-spacing: 2px;
 }
 
-.linkli {
-    margin: 0px 18px 0px 0px;
+li {
+    margin: 8px;
 }
 
 a {
