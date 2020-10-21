@@ -20,12 +20,20 @@ body {
 }
 
 .box {
-    /* flexbox woo! */
+    /* flexbox solution (breaks ios safari)
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    width: 100wh;
+    width: 100wh; */
+    
+    /* transform solution (ie8+, weird flow problems) */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 }
 
 .content {
